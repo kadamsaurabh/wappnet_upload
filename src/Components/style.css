@@ -1,0 +1,94 @@
+.img1 {
+    background-image: url("https://img.freepik.com/free-photo/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion-wooden-table_2829-19631.jpg?size=626&ext=jpg&ga=GA1.2.1373129249.1655470043");
+
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+
+.search input {
+
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+
+.search input:focus {
+
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search .fa-search {
+
+    position: absolute;
+    top: 20px;
+    left: 16px;
+
+}
+
+.search button {
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: blue;
+
+}
+
+.ss {
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+
+}
+
+.shadow-sm {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px !important;
+}
+
+.shadow-sm:hover {
+    border: 2px solid orangered;
+}
+
+.main-btn {
+    background-color: rgb(238, 36, 9) !important;
+    border-radius: 20px;
+    width: 130px;
+}
+
+.main-btn:hover {
+    background-color: green !important;
+}
+
+.btn-logo {
+    color: rgb(238, 69, 8);
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 0px 22px;
+}
+
+.sli-card {
+    background-image: url("https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=600") !important;
+}
+
+ul li:hover {
+    text-decoration: underline;
+}
+
+.title {
+    color: rgb(255, 149, 0);
+    font-family: sans-serif;
+}
